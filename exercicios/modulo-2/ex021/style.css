@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+    font: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0;
+    
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+header > h1{
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1{
+    box-shadow: -2px 3px 19px 0px black;
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: auto 30px 0px 20px;
+    
+    
+}
+
+nav > :hover{
+    text-decoration: underline;
+}
+
+#menu{
+    text-align: center;
+}
+
+section#noticiais{
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+
+}
+
+article > aside{
+    background-color:lightgray;
+    
+}
+
+#noticias{
+    border-radius: 5px;
+}
+
+#conteudo{
+    text-align: justify;
+}
+
+#autor{
+    text-align: right;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer > p{
+    margin: 2px;
+} 
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+    
+        .passar:hover{
+            color: green;
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        a{
+            text-decoration:none;
+        }
+
+        a:visited{
+            color:green;
+            
+        }
+        
+        #unico:active{
+            color:white;
+            background-color:purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classe em HTML e CSS</h1>
+    <h2>Pseudo-classe com HOVER</h2>
+    <p class="passar">Passe o mouse por cima</p>
+    <p class="passar">Passe o mouse aqui também.</p>
+    <h2>Pseudo-classe com VISITED</h2>
+    <p>Aqui temos um link para acessar o <a href="https://www.youtube.com/" target="_blank">YOUTUBE</a></p>
+    <p>A cor do link acima está verde porque ele já foi visitado, a cor padrão para links não visitados é azul (veja o código).</p>
+    <h2>Pseudo-classe com ACTIVE</h2>
+    <p>No link abaixo, ao pressionar ele, a cor será branca e o fundo será roxo</p>
+    <p><a href="https://www.twitch.tv/" id="unico" target="_blank"> TWITCH</a></p>
+        
+    
+</body>
+</html>
