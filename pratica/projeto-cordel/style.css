@@ -42,48 +42,45 @@ header > p > a:hover{
     text-decoration: underline;
 }
 
+section{
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
 .verso-1{
     font-family: 'Sriracha', cursive;
     font-size: 3vw;
     margin: 80px 30px;
     margin-bottom: 100px;
+    line-height: 2em;
 }
 
-#fundopreto1{
-    font-family: 'Sriracha', cursive;
-    background-image: url(imagens/background001.jpg);
-    background-color: black;
+.fundo1{
+    display: absolute;
     background-size: cover;
-    background-position: right center;
     background-attachment: fixed;
+    background-image: url('imagens/background001.jpg');
     color: white;
-    font-size: 3vw;
-    
-    position: relative;
    
 }
 
-#fundopreto1 > p{
-    background-color: rgba(0, 0, 0, 0.37);
-    margin: 100px;
-    padding: 50px;
-}
-
-#fundopreto2{
-    font-family: 'Sriracha', cursive;
-    background-image: url(imagens/background002.jpg);
-    background-color: black;
+.fundo2{
+    display: absolute;
     background-size: cover;
-    background-position: right center;
     background-attachment: fixed;
+    background-image: url('imagens/background002.jpg');
     color: white;
-    font-size: 3vw;
+    
+ }
+section.fundo1 > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.50);
 }
 
-#fundopreto2 > p{
-    background-color: rgba(0, 0, 0, 0.37);
-    margin: 100px;
-    padding: 50px;
+section.fundo2 > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.50);
 }
 
 footer{
